@@ -1,6 +1,6 @@
 def prime?(int)
   result = []
-  counter = 1 
+  counter = 1
   while counter <= int
     if int % counter == 0
       result << counter
