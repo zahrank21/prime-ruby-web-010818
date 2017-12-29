@@ -1,1 +1,15 @@
-# Add  code here!
+def prime?(int)
+  result = []
+  counter = 1 
+  while counter <= int
+    if int % counter == 0
+      result << counter
+    end
+    counter += 1
+  end
+  if result.length > 2
+    return true
+  else
+    return false
+  end
+end
