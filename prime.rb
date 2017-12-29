@@ -1,6 +1,9 @@
 def prime?(int)
   result = []
   counter = 1
+if int < 0
+  return false
+end
   while counter <= int
     if int % counter == 0
       result << counter
