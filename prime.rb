@@ -8,8 +8,8 @@ def prime?(int)
     counter += 1
   end
   if result.length > 2
-    return true
-  else
     return false
+  else
+    return true
   end
 end
